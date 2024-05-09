@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -30,4 +30,54 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+.header{
+  background-color: brown;
+  text-align: center;
+  color: white;
+}
+
+.footer{
+  background-color: blueviolet;
+  text-align: center;
+  color: white;
+}
+
+.ly-home-div-main{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+
+.ly-home{
+  background-color: aqua;
+  width: 10%;
+}
+
+.page-home{
+  background-color: black;
+  color: azure;
+  width: 90%;
+  text-align: center;
+}
+
+.ly-client-div-main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: greenyellow;
+  width: 90%;
+}
+
+.ly-client{
+  background-color: rgb(147, 248, 255);
+  width: 100%;
+}
+
+.page-client{
+  background-color: rgb(46, 46, 46);
+  color: azure;
+  width: 100%;
+  text-align: center;
 }
