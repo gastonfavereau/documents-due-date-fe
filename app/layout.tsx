@@ -1,4 +1,5 @@
 //import type { Metadata } from "next";
+import Link from "next/link";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -19,7 +20,7 @@ export default function RootLayout({ children,})
           
           <div className="ly-home-div-main">
             <div className="ly-home">
-               <a href="">Este es sidebar del sitio</a>
+               <Link href="">Este es sidebar del sitio</Link>
               </div>
 
             {children}
